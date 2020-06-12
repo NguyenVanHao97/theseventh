@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="header" class="py-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 text-center text-md-left header-left pt-1">
+                    <i class="fa fa-phone"></i>
+                    <span class=" mr-2">+84(0)969 998 966 - 028 5410 7653</span>
+                    <i class="fa fa-map-marker"></i>
+                    <span> 75-77 Phan ích Khiêm , Phú Mỹ Hưng,Q7,HCM</span>
+                </div>
+                <div class="col-md-5 text-center text-md-right header-right text-right mt-2 mt-md-0">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fa fa-globe"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <img src="./images/images/logo.jpg" alt="">
+
+            <button class="navbar-toggler " data-toggle="collapse" data-target="#mymenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mymenu">
+                <ul class="navbar-nav navbar-nav--menu ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">
+                            TRANG CHỦ
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            GIỚI THIỆU
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            PHÒNG
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            ẨM THỰC
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            SỰ KIỆN
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            TIỆN ÍCH
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            GALLERY
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            TIN TỨC
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            LIÊN HỆ
+                        </a>
+                        <div class="nav-item__line"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="language">
+                <i class="fa fa-globe-americas"></i>
+                <select name="" id="">
+                    <option value="">-Vietnamses-</option>
+                    <option value="">-Japanses-</option>
+                    <option value="">-English-</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <section class="carousel-slider">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/images/slider-31.jpg" alt="Los Angeles" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/images/slider-5.jpg" alt="Chicago" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/images/slider-23.jpg" alt="New York" width="1100" height="500">
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#slider" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slider" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+        <div class="form-user container">
+            <form>
+                <div class="row-date  mt-10">
+                    <label for="">Ngày Đến</label>
+                    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                    <label for="">Ngày Đi</label>
+                    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label class="my-1 mr-2" for="inputState">Người lớn</label>
+                        <select class="custom-select my-1 mr-sm-2" id="">
+                            <option selected>1 Người lớn</option>
+                            <option value="1">2 Người lớn</option>
+                            <option value="2">3 Người lớn</option>
+                            <option value="3">4 Người lớn</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="my-1 mr-2" for="">Trẻ em</label>
+                        <select class="custom-select my-1 mr-sm-2" id="">
+                            <option selected>1 Trẻ em</option>
+                            <option value="1">2 Trẻ em</option>
+                            <option value="2">3 Trẻ em</option>
+                            <option value="3">4 Trẻ em</option>
+                        </select>
+                    </div>
+                    <label class="my-1 mr-2" for="">Loại Phòng</label>
+                    <select class="custom-select my-1 mr-sm-2" id="">
+                        <option selected>Tiêu chuẩn 3 giường</option>
+                        <option value="1">Tiêu chuẩn 2 giường</option>
+                        <option value="2">Tiêu chuẩn phòng đôi</option>
+                        <option value="3">Phòng tiết kiệm (tầng hầm)</option>
+                    </select>
+                    <div class="btn-order container">
+                        <button>Đặt ngay <i class="fa fa-calendar-plus"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="the-seventh container ">
+        <div class="row ">
+            <div class="col-md-6 col-lg-6">
+                <div class="seventh-title">
+                    <h3>
+                        <a href="">
+                            THE SEVENTH
+                            <br>
+                            HOTEL & APARMENT
+                        </a>
+
+                    </h3>
+                    <div class="title__line mx-auto mt-3 mb-3   mb-sm-5"">
+
+                </div>
+                <div class=" seventh-content">
+                        <p>Khách sạn The Seventh tọa lạc tại 75-77 Phan Khiêm Ích, quận 7, thành phố Hồ Chí Minh, cách
+                            trung tâm thành phố Hồ Chí Minh 10 phút lái xe và sân bay Quốc tế Tân Sơn Nhất cách đó 35
+                            phút lái xe.</p>
+                        <br>
+                        <p>Khách sạn The Seventh đạt tiêu chuẩn 2 sao với hệ thống phòng nghỉ được trang bị hiện đại,
+                            đồng bộ cùng với những dịch vụ sẵn có. Khi đặt phòng tại Khách sạn The Seventh, du khách sẽ
+                            hoàn toàn hài lòng về dịch vụ và giá cả tại đây. Với phong cách phục vụ chuyên nghiệp và sự
+                            thân thiện của nhân viên khách sạn, du khách sẽ được nghỉ ngơi thoải mái sau những ngày làm
+                            việc căng thẳng hay tận hưởng những giây phút ấn tượng và khó quên bên gia đình và những
+                            người thân yêu. </p>
+                        <div class="seventh-btn">
+                            <button>Về chúng tôi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/images/PSD_Test_2_08.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="product-box">
+        <div class="product container text-center">
+            <h2 class="product-item ">
+                <a href="">
+                    PHÒNG CỦA CHÚNG TÔI
+                </a>
+                <div class="title__line mx-auto mt-5 mb-5  mb-sm-5"></div>
+            </h2>
+            <p>Khách Sạn The Seventh đạt tiêu chuẩn 2 sao với hệ thống phòng nghỉ được trang bị hiện đại, đồng bộ cùng với những dịch vụ sẵn có….</p>
+        </div>
+        <div class="product-slide owl-carousel owl-theme container ">
+                    <div class="item ">
+                       <div class="item-content">
+                           <a href="http://"><img src="./images/images/353x353x1-p11.jpg" alt=""></a>
+                           <a href=""><h4>Tiêu chuẩn 2 giường</h2></a>
+                            <div class="title__line ml-0 mt-5 mb-3  mb-sm-5 "></div>
+                           <ul>
+                               <li>
+                                <i class="fa fa-check"></i>
+                                <span>Occupancy :</span>
+                               </li>
+                               <li>
+                                <i class="fa fa-check"></i>
+                                <span> size :</span>
+                               </li>
+                           </ul>
+                       </div>
+                    </div>
+                    <div class="item ">
+                        <div class="item-content">
+                            <a href="http://"><img src="./images/images/353x353x1-p11.jpg" alt=""></a>
+                            <a href=""><h4>Tiêu chuẩn 2 giường</h2></a>
+                             <div class="title__line ml-0 mt-5 mb-3  mb-sm-5 "></div>
+                            <ul>
+                                <li>
+                                 <i class="fa fa-check"></i>
+                                 <span>Occupancy :</span>
+                                </li>
+                                <li>
+                                 <i class="fa fa-check"></i>
+                                 <span> size :</span>
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                     <div class="item ">
+                        <div class="item-content">
+                            <a href="http://"><img src="./images/images/353x353x1-p11.jpg" alt=""></a>
+                            <a href=""><h4>Tiêu chuẩn 2 giường</h2></a>
+                             <div class="title__line ml-0 mt-5 mb-3  mb-sm-5 "></div>
+                            <ul>
+                                <li>
+                                 <i class="fa fa-check"></i>
+                                 <span>Occupancy :</span>
+                                </li>
+                                <li>
+                                 <i class="fa fa-check"></i>
+                                 <span> size :</span>
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                     <div class="item ">
+                        <div class="item-content">
+                            <a href="http://"><img src="./images/images/353x353x1-p11.jpg" alt=""></a>
+                            <a href=""><h4>Tiêu chuẩn 2 giường</h2></a>
+                             <div class="title__line ml-0 mt-5 mb-3  mb-sm-5 "></div>
+                            <ul>
+                                <li>
+                                 <i class="fa fa-check"></i>
+                                 <span>Occupancy :</span>
+                                </li>
+                                <li>
+                                 <i class="fa fa-check"></i>
+                                 <span> size :</span>
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                  
+
+                </div>
+    </section>
+    <section id="new" class="container new-header ">
+        <h1 class="text-center ">TIN TỨC & SỰ KIỆN</h1>
+        <div class="title__line mx-auto mt-5 mb-5  mb-sm-5"></div>
+        <div class="row ml-10">
+        <div class="col-lg-4 col-12 new-content">
+            <div class="new-img">
+                <img src="./images/images/PSD_Test_2_27.png" alt="">
+            </div>
+            <div class="new-item">
+                <a href="">
+                    <h4>Phúc long- cafe cách khách sạn The Seventh 50m</h4>
+                </a>
+                <a href="">Xem Thêm <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 new-content">
+            <div class="new-img">
+                <img src="./images/images/PSD_Test_2_27.png" alt="">
+            </div>
+            <div class="new-item">
+                <a href="">
+                    <h4>Phúc long- cafe cách khách sạn The Seventh 50m</h4>
+                </a>
+                <a href="">Xem Thêm <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 new-content">
+            <div class="new-img">
+                <img src="./images/images/PSD_Test_2_27.png" alt="">
+            </div>
+            <div class="new-item">
+                <a href="">
+                    <h4>Phúc long- cafe cách khách sạn The Seventh 50m</h4>
+                </a>
+                <a href="">Xem Thêm <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 new-content">
+            <div class="new-img">
+                <img src="./images/images/PSD_Test_2_27.png" alt="">
+            </div>
+            <div class="new-item">
+                <a href="">
+                    <h4>Phúc long- cafe cách khách sạn The Seventh 50m</h4>
+                </a>
+                <a href=""> <span> Xem Thêm  </span> <i class="fa fa-angle-right"></i> </a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="bottoom ">
+            <div class="box-bottoom ">
+                <div class="box-text  ">
+                    <h3>ĐẶT LỊCH TRỰC TUYẾN NGAY HÔM NAY
+                    </h3>
+                </div>
+                <div class="box-button ">
+                    <div class="btn btn-secondary">Online booking <i class="fa fa-angle-right"></i></div>
+                    
+                </div>
+            </div>
+    </section>
+    <section class="gallery container ">
+        <div class="row ">
+            <div class="col-md-6 text-center ">
+                <a href=""><h2>GALLERY</h2></a>
+                <div class="title__line mx-auto mt-5 mb-3  mb-sm-5 "></div>
+            
+            <div class="gallery-img">
+                <div class="row">
+                    <div class="col-4 gallery-item">
+                    <img src="./images/images/1366x924x1-sanh-12.jpg" alt="">
+                    <div class="gallery-text text-center">
+                        <h4>Lối đi</h4>
+                        <div class="title__line mx-auto my-2  mb-sm-5 "></div>
+                    </div>
+                </div>
+                <div class="col-4 gallery-item">
+                    <img src="./images/images/1366x924x1-sanh-12.jpg" alt="">
+                    <div class="gallery-text text-center">
+                        <h4>Sân vườn</h4>
+                        <div class="title__line mx-auto my-2    mb-sm-5 "></div>
+                    </div>
+                </div>
+                <div class="col-4 gallery-item">
+                    <img src="./images/images/1366x924x1-sanh-12.jpg" alt="">
+                    <div class="gallery-text text-center">
+                        <h4>Sảnh chính</h4>
+                        <div class="title__line mx-auto my-2    mb-sm-5 "></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-6 ">
+                <a href="" class="text-center" > <h2>Khách hàng của chúng tôi</h2></a>
+                <div class="title__line mx-auto mt-5 mb-3  mb-sm-5 "></div>
+                <div class="gallery-carousel">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="maps">
+        <div class="map text-center" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6592.657110861317!2d106.70455367702586!3d10.733143372809689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f90eaf00521%3A0xc7c6ba8febcebdf0!2s7S%20The%20Seventh%20Hotel!5e0!3m2!1svi!2s!4v1591973391932!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="row mx-auto text-center footer-item">
+            <div class="col-3">
+                <img src="./images/images/PSD_Test_2_64.jpg" alt="">
+                <p>Khách sạn The Seventh tọa lạc tại 75-77 Phan Khiêm Ích, quận 7, thành phố Hồ Chí Minh, cách trung tâm thành phố Hồ Chí Minh 10 phút lái xe và sân bay Quốc tế Tân Sơn Nhất cách đó 35 phút lái xe.</p>
+            </div>
+            <div class="col-3 contact">
+                <h3>
+                    CONTACT US
+                </h3>
+                <div class="footer-text">
+                <i class="fa fa-map-marker"></i>
+                <span>75-77 Phan Khiêm Ích , Phú Mỹ Hưng ,Q.7 ,HCM</span>
+                <br>
+                <i class="fa fa-phone"></i>
+                <span>+84(28) 5410 7653  +84(0)969 998 966</span>
+                <br>
+                <i class="fa fa-paper-plane"></i>
+                <span>theseventhhotel@gmail.com</span>
+            </div>
+            </div>
+            <div class="col-3 service">
+                <a href="">
+                    <h3>OUR SERVICE</h3>
+                </a>
+                <ul>
+                    <a href=""><li>Trang chủ</li></a>
+                    <a href=""><li>Liên hệ</li></a>
+                   <a href=""> <li>Tiện ích</li></a>
+                </ul>
+            </div>
+            <div class="col-3 forms">
+                <form action="">
+                    <h3>Đăng kí nhận tin</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="your email    " >
+                        <br>
+                        <br>
+                        <button>Đăng kí</button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <section class="bottom">
+        <p>COPYRIGHT © 2018 THE SEVENTH HOTEL & APARTMENT . ALL RIGHTS RESERVED.</p>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+  <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+  
+</body>
+
+</html>
